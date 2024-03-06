@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "./components/Banner";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Banner from "./pages/Banner";
+import Footer from "./pages/Footer";
+import Header from "./pages/Header";
 
 const App = () => {
   return (
