@@ -1,12 +1,23 @@
 import React from "react";
+import { profile } from "../data/profile";
 
 const Banner = () => {
+  const {
+    firsName,
+    lastName,
+    position,
+    summary,
+    avatar,
+    location,
+    tags,
+    socialLinks,
+  } = profile;
   return (
     <div>
       {/* image box  */}
       <div>
         <img
-          src="../images/profile/profile-500into500.png"
+          src={avatar.srcPath}
           alt="Roushan Sheikh"
         />
       </div>
@@ -14,7 +25,7 @@ const Banner = () => {
       <div>
         {/* inner content  */}
         <div>
-          <h1>Roushan Sheik</h1>
+          <h1>{firsName}</h1>
           <p>Web Developer</p>
           <p>Javascript and Python Problem Solver</p>
           {/* location  */}

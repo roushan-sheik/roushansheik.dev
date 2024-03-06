@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 
-const Projects = () => {
+const About = () => {
   return (
     <section>
       {/* Header Navbar */}
@@ -10,10 +10,10 @@ const Projects = () => {
       </header>
       {/* main content  */}
       <main>
-        <h2>Projects</h2>
+        <h2>About</h2>
       </main>
     </section>
   );
 };
 
-export default Projects;
+export default About;

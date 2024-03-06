@@ -1,17 +1,18 @@
- 
- 
-
 export const routes = {
   home: {
-    path: '/',
-    name: 'About',
+    path: "/",
+    name: "Home",
+  },
+  about: {
+    path: "/about",
+    name: "About",
   },
   projects: {
-    path: '/projects',
-    name: 'Projects',
+    path: "/projects",
+    name: "Projects",
   },
   blog: {
-    path: '/blog',
-    name: 'Blog',
+    path: "/blog",
+    name: "Blog",
   },
 };
