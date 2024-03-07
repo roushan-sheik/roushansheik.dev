@@ -5,4 +5,14 @@
 @tailwind utilities;
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  /* background-color: #f5f3f4; */
+}
+@layer components {
+  .primary_black {
+    color: #343a40;
+  }
+  .secondary_black {
+    color: #6c757d;
+  }
 }

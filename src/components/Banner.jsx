@@ -18,9 +18,11 @@ const Banner = () => {
       <div>
         {/* title box */}
         <div className="flex text-2xl font-bold gap-2">
-          <h2 className="capitalize">{firstName} </h2>
-          <h2 className="capitalize">{lastName}</h2>
+          <h2 className="capitalize primary_black">{firstName} </h2>
+          <h2 className="capitalize text-[#8a817c]">{lastName}</h2>
         </div>
+        <h4 className="secondary_black ">{position}</h4>
+        <h4 className="secondary_black">{summary}</h4>
       </div>
     </div>
   );
