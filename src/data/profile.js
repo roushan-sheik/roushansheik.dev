@@ -1,8 +1,8 @@
 import { socialLinks } from "./socialLinks";
 
 export const profile = {
-  firstName: "Roushan",
-  lastName: "Sheik",
+  firstName: "ROWSHAN",
+  lastName: "SHEIK",
   position: "Senior Software Engineer @ Uber",
   summary: ["Author of 170k ★️ javascript-algorithms repo on GitHub"],
   avatar: {

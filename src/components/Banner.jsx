@@ -14,6 +14,14 @@ const Banner = () => {
           alt=""
         />
       </div>
+      {/* content box parent */}
+      <div>
+        {/* title box */}
+        <div className="flex text-2xl font-bold gap-2">
+          <h2 className="capitalize">{firstName} </h2>
+          <h2 className="capitalize">{lastName}</h2>
+        </div>
+      </div>
     </div>
   );
 };
