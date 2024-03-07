@@ -23,6 +23,18 @@ const Banner = () => {
         </div>
         <h4 className="secondary_black ">{position}</h4>
         <h4 className="secondary_black">{summary}</h4>
+        <h4 className="secondary_black">{location?.name}</h4>
+        {/* button box container  */}
+        <div className="flex gap-4">
+          {tags.map((tag) => {
+            return (
+              <button className="p-1 text-[.875rem] bg-gray-200 rounded">
+                {tag.name}
+              </button>
+            );
+          })}
+        </div>
+        
       </div>
     </div>
   );
