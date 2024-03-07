@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { profile } from "../data/profile";
+import { description, profile } from "../data/profile";
 
 const Banner = () => {
   const [showSocial, setShowSocial] = useState(false);
@@ -63,20 +63,24 @@ const Banner = () => {
               {showSocial ? "-less" : "+more"}
             </button>
           </div>
+          {/* my resume  */}
+          <div className="my-2">
+            <a href="#">
+              <button
+                type="button"
+                className="group relative h-12 w-32 overflow-hidden border-2 border-gray-300 rounded-lg text-base primary_black hover:font-[500]"
+              >
+                <span className="bg-gray-300  ease-in absolute w-[57%]  -translate-x-full group-hover:translate-x-0 -left-2 top-0 bottom-0 duration-300 -z-10 skew-x-12"></span>
+                <span className="bg-gray-200 ease-in absolute w-[55%]  translate-x-full group-hover:translate-x-0 -right-2 top-0 bottom-0 duration-300 skew-x-12 -z-10"></span>
+                Resume
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       {/* bottom Para graph container  */}
       <div>
-        <p className="secondary_black text-base my-8">
-          Hi There, I'm Roushan Sheik, a skilled JavaScript programmer with
-          three years of hands-on experience. I specialize in developing
-          efficient code, with expertise in frameworks like React.js, Next.js,
-          and Express.js for dynamic web applications. Currently, I'm dedicated
-          to backend development, architecting and maintaining server-side
-          components. My passion for web development and commitment to staying
-          updated with the latest technologies make me a valuable asset to any
-          project or team.
-        </p>
+        <p className="secondary_black text-base my-8">{description}</p>
       </div>
     </div>
   );
