@@ -2,8 +2,16 @@ import React from "react";
 import { profile } from "../data/profile";
 
 const Banner = () => {
-  const { firstName, lastName, position, summary, avatar, location, tags } =
-    profile;
+  const {
+    firstName,
+    lastName,
+    position,
+    summary,
+    avatar,
+    location,
+    tags,
+    socialLinks,
+  } = profile;
   return (
     <div className="flex flex-col lg:flex-row ">
       {/* profile image box */}
@@ -34,7 +42,12 @@ const Banner = () => {
             );
           })}
         </div>
-        
+        {/* Social links  */}
+        <div>
+          {socialLinks.map((social) => {
+            return <button>{<social.name />}</button>;
+          })}
+        </div>
       </div>
     </div>
   );
