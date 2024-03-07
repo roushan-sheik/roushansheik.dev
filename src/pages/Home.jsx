@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "../components/Banner";
 import Header from "../components/Header";
 
 const Home = () => {
@@ -10,7 +11,8 @@ const Home = () => {
       </header>
       {/* main content  */}
       <main>
-        <h2>Home</h2>
+        {/* banner section  */}
+        <Banner />
       </main>
     </section>
   );

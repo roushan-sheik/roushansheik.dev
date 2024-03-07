@@ -7,7 +7,7 @@ export const profile = {
   summary: ["Author of 170k ★️ javascript-algorithms repo on GitHub"],
   avatar: {
     // srcPath: 'profile/avatar_500x500.jpg',
-    srcPath: "/src/assets/profile/profile-500into500.png",
+    srcPath: "../../public/assets/profile/profile-500into500-2.png",
     caption: "Roushan Sheik",
   },
   location: {

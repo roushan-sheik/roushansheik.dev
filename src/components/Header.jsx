@@ -9,7 +9,8 @@ const Header = () => {
       <div>
         <h3 className="cursor-pointer font-bold">ROUSHANSHEIK</h3>
       </div>
-      <div>
+      {/* nav bar  */}
+      <nav>
         <ul className="flex space-x-4 text-[.80rem] ">
           <li className="uppercase">
             <NavLink to={home.path}>{home.name}</NavLink>
@@ -24,7 +25,7 @@ const Header = () => {
             <NavLink to={blog.path}>{blog.name}</NavLink>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 };
