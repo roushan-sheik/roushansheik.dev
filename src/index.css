@@ -10,7 +10,7 @@ body {
 }
 @layer components {
   .primary_black {
-    color: #343a40;
+    color: #0b090a;
   }
   .secondary_black {
     color: #6c757d;
