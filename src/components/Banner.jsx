@@ -65,7 +65,11 @@ const Banner = () => {
           </div>
           {/* my resume  */}
           <div className="my-2">
-            <a href="#">
+            <a
+              href="https://drive.google.com/file/d/1garOnqLJR8VGG7fxKw42pM7l1RWg7E8P/view?usp=sharing"
+              download
+              target="_blank"
+            >
               <button
                 type="button"
                 className="group relative h-12 w-32 overflow-hidden border-2 border-gray-300 rounded-lg text-base primary_black hover:font-[500]"
