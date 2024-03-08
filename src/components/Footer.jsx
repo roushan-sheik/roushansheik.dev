@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       {/* footer parent div  */}
-      <div className="flex lg:flex-row gap-8 mb-4 lg:gap-0 justify-between items-center flex-col py-8 ">
+      <div className="flex lg:flex-row gap-8 mt-20 mb-10 lg:gap-0 justify-between items-center flex-col  ">
         {/* left box  */}
         <div className="flex lg:flex-1 gap-4 items-center">
           <div className="">

@@ -19,3 +19,9 @@ body {
 nav .active {
   font-weight: bold;
 }
+.img_shadow {
+  display: none;
+}
+#img_shadow_container :hover .img_shadow {
+  display: block !important;
+}
