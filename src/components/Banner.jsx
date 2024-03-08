@@ -57,7 +57,7 @@ const Banner = () => {
                 return (
                   <a
                     title={social.caption}
-                    className="text-red text-[24px]"
+                    className="text-red lg:text-[24px] text-[20px]"
                     href={social.url}
                   >
                     {<social.name />}

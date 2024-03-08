@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       {/* nav bar  */}
       <nav>
-        <ul className="flex space-x-4 text-[.875rem] ">
+        <ul className="flex lg:space-x-4 space-x-4 lg:text-[.875rem] text-[12px] ">
           <li className="uppercase primary_black">
             <NavLink to={about.path}>{about.name}</NavLink>
           </li>
