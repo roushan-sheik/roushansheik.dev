@@ -14,11 +14,8 @@ const Header = () => {
       {/* nav bar  */}
       <nav>
         <ul className="flex space-x-4 text-[.875rem] ">
-          <li className="uppercase primary_black ">
-            <NavLink to={home.path}>{home.name}</NavLink>
-          </li>
           <li className="uppercase primary_black">
-            <NavLink to={about.path}>{about.name}</NavLink>
+            <NavLink to={home.path}>{about.name}</NavLink>
           </li>
           <li className="uppercase primary_black">
             <NavLink to={projects.path}>{projects.name}</NavLink>

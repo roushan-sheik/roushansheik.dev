@@ -11,8 +11,7 @@ const App = () => {
     <main className="container w-[90%] mx-auto">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Not_Found />} />

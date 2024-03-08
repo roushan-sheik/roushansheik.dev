@@ -84,7 +84,9 @@ const Banner = () => {
       </div>
       {/* bottom Para graph container  */}
       <div>
-        <p className="secondary_black text-base my-8">{description}</p>
+        <p className="secondary_black text-center lg:text-left text-base my-8">
+          {description}
+        </p>
       </div>
     </div>
   );
