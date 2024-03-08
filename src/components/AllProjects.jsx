@@ -8,7 +8,7 @@ const AllProjects = () => {
       <div className="relative">
         <h2 className="text-3xl relative inline-block font-bold uppercase select-none py-8">
           Projects{" "}
-          <span className="absolute text-base bg-gray-200 px-4 py-2 font-semibold  rounded-full top-2 -right-11">
+          <span className="absolute text-base bg-gray-200 px-2 font-normal secondary_black rounded-full top-4 -right-6">
             {projects.length}
           </span>
         </h2>
