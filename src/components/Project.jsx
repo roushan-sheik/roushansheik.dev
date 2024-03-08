@@ -54,8 +54,8 @@ const Project = ({ project }) => {
           <a href={gitHubRepo.repo}>
             <button class="button">
               <svg
-                width="26"
-                height="26"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
