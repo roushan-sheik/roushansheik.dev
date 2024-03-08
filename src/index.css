@@ -16,3 +16,6 @@ body {
     color: #6c757d;
   }
 }
+nav .active {
+  font-weight: bold;
+}
