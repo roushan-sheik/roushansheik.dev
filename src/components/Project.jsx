@@ -18,10 +18,10 @@ const Project = ({ project }) => {
   return (
     <div className="bg-white p-4 rounded-lg border overflow-hidden border-gray-200 shadow-md">
       {/* image-box  */}
-      <div className="h-[250px] rounded-lg">
+      <div className="h-[250px] overflow-hidden border  shadow-inner  rounded-lg">
         <a className="z-10" href={liveURL?.url}>
           <img
-            className="h-full object-cover rounded-lg"
+            className="h-full hover:scale-110 duration-300 ease-in object-cover rounded-lg"
             src={cover.srcPath}
             alt="Img"
           />
