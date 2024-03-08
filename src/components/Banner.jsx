@@ -90,7 +90,7 @@ const Banner = () => {
       </div>
       {/* bottom Para graph container  */}
       <div>
-        <p className="secondary_black text-center lg:text-left lg:text-base text-[14px] my-8">
+        <p className="secondary_black text-center lg:text-left text-base   my-8">
           {description}
         </p>
       </div>
