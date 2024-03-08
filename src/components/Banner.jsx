@@ -17,7 +17,7 @@ const Banner = () => {
     <div className="main_container_box">
       <div className="flex flex-col lg:flex-row  mt-8  gap-8">
         {/* profile image box */}
-        <div>
+        <div className="flex justify-center lg:justify-start ">
           <img
             className="rounded-full w-[260px] h-[260px]"
             src={avatar.srcPath}

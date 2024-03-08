@@ -4,7 +4,7 @@ export const routes = {
     name: "Home",
   },
   about: {
-    path: "/about",
+    path: "/",
     name: "About",
   },
   projects: {
