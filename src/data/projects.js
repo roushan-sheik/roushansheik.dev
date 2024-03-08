@@ -1,3 +1,6 @@
+import {
+  FaGithub,
+} from "react-icons/fa";
 export const projects = [
   {
     id: "journey-savior",
@@ -15,6 +18,7 @@ export const projects = [
     tags: [{ name: "HTML" }, { name: "Raw CSS" }, { name: "Responsive" }],
     gitHubRepo: {
       owner: "roushan-sheik",
+      icon: FaGithub,
       repo: "https://github.com/roushan-sheik/journey-savior",
     },
     achievements: ["responsive", "raw-project"],
@@ -35,6 +39,7 @@ export const projects = [
     tags: [{ name: "HTML" }, { name: "Tailwind" }, { name: "Responsive" }],
     gitHubRepo: {
       owner: "roushan-sheik",
+      icon: FaGithub,
       repo: "https://github.com/roushan-sheik/hockeys-arena",
     },
     achievements: ["responsive", "tailwind css"],
@@ -60,6 +65,7 @@ export const projects = [
     ],
     gitHubRepo: {
       owner: "roushan-sheik",
+      icon: FaGithub,
       repo: "https://github.com/roushan-sheik/bus-ticket-store",
     },
     achievements: [
@@ -94,6 +100,7 @@ export const projects = [
     ],
     gitHubRepo: {
       owner: "roushan-sheik",
+      icon: FaGithub,
       repo: "https://github.com/Programming-Hero-Web-Course4/b9-test-repo-roushan-sheik",
     },
     achievements: [

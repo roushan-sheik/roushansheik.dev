@@ -13,7 +13,7 @@ const AllProjects = () => {
           </span>
         </h2>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3  gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3  gap-8">
         {projects.map((project) => (
           <Project project={project} id={project.id} />
         ))}
