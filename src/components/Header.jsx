@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="flex  items-center space-x-8 py-4 ">
       <div>
-        <h3 className="cursor-pointer font-bold primary_black text-base">
+        <h3 className="cursor-pointer font-bold primary_black text-[18px]">
           ROUSHAN<span className="text-[#69605c]">S</span>HEIK
         </h3>
       </div>
