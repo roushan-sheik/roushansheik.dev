@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
-import Home from "./pages/Home";
+ 
 import Not_Found from "./pages/Not_Found";
 import Projects from "./pages/Projects";
 

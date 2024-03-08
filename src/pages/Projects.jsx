@@ -1,4 +1,6 @@
 import React from "react";
+import AllProjects from "../components/AllProjects";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Projects = () => {
@@ -10,8 +12,12 @@ const Projects = () => {
       </header>
       {/* main content  */}
       <main>
-        <h2>Projects</h2>
+        <div>
+          <AllProjects />
+        </div>
       </main>
+      {/* Footer section  */}
+      <Footer />
     </section>
   );
 };
