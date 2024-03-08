@@ -5,7 +5,7 @@ import { routes } from "../constants/routes";
 const Header = () => {
   const { home, about, projects, blog } = routes;
   return (
-    <div className="flex  items-center space-x-8 py-4 ">
+    <div className="flex  items-center justify-between lg:justify-start space-x-8 py-6 ">
       <div>
         <h3 className="cursor-pointer font-bold primary_black text-[18px]">
           ROUSHAN<span className="text-[#69605c]">S</span>HEIK

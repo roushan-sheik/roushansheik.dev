@@ -29,7 +29,7 @@ const Banner = () => {
           {/* title box */}
           <div className="flex text-3xl justify-center lg:justify-start font-bold  gap-2">
             <h2 className="capitalize primary_black  ">{firstName} </h2>
-            <h2 className="capitalize text-[#8a817c] ">{lastName}</h2>
+            <h2 className="capitalize primary_yellow ">{lastName}</h2>
           </div>
           <h4 className="secondary_black flex justify-center lg:justify-start  py-2 ">
             {position}
@@ -78,10 +78,10 @@ const Banner = () => {
             >
               <button
                 type="button"
-                className="group relative lg:h-12 h-10 lg:w-32 w-24 overflow-hidden border-2 border-gray-300 rounded-lg text-base primary_black hover:font-[500]"
+                className="group relative lg:h-12 h-10 lg:w-32 w-24 overflow-hidden border-2 border-[#ff9f1c] rounded-lg text-base primary_black hover:text-[#ff9f1c] hover:font-[500]"
               >
-                <span className="bg-gray-300  ease-in absolute w-[57%]  -translate-x-full group-hover:translate-x-0 -left-2 top-0 bottom-0 duration-300 -z-10 skew-x-12"></span>
-                <span className="bg-gray-200 ease-in absolute w-[55%]  translate-x-full group-hover:translate-x-0 -right-2 top-0 bottom-0 duration-300 skew-x-12 -z-10"></span>
+                <span className="bg-white ease-in absolute w-[57%]  -translate-x-full group-hover:translate-x-0 -left-2 top-0 bottom-0 duration-300 -z-10 skew-x-12"></span>
+                <span className="bg-white ease-in absolute w-[55%]  translate-x-full group-hover:translate-x-0 -right-2 top-0 bottom-0 duration-300 skew-x-12 -z-10"></span>
                 Resume
               </button>
             </a>
