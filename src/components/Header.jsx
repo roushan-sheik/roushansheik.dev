@@ -8,7 +8,7 @@ const Header = () => {
     <div className="flex  items-center justify-between lg:justify-start space-x-8 py-6 ">
       <div>
         <h3 className="cursor-pointer font-bold primary_black text-[18px]">
-          ROUSHAN<span className="text-[#69605c]">S</span>HEIK
+          ROUSHAN<span className="secondary_black">S</span>HEIK
         </h3>
       </div>
       {/* nav bar  */}

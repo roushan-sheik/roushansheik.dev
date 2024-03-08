@@ -13,7 +13,8 @@ body {
     color: #0b090a;
   }
   .primary_yellow {
-    color: #ff9f1c;
+    /* color: #ff9f1c; */
+    color: #ff7900;
   }
   .secondary_black {
     color: #6c757d;
@@ -21,7 +22,7 @@ body {
 }
 nav .active {
   font-weight: bold;
-  color: #ff9f1c;
+  color: #ff7900;
 }
 .img_shadow {
   display: none;

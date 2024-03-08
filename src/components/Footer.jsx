@@ -7,17 +7,23 @@ const Footer = () => {
   return (
     <footer>
       {/* footer parent div  */}
-      <div className="flex lg:flex-row gap-8 mt-20 mb-10 lg:gap-0 justify-between items-center flex-col  ">
+      <div className="flex lg:flex-row gap-8 mt-20 mb-12 lg:gap-0 justify-between items-center flex-col  ">
         {/* left box  */}
         <div className="flex lg:flex-1 gap-4 items-center">
           <div className="">
-            <a href="#" className="flex  gap-2 items-center cursor-pointer">
+            <a
+              href="#"
+              className="flex hover:primary_yellow duration-300 ease-in gap-2 items-center cursor-pointer"
+            >
               <GoMail />
               <p className="text-base black-secondary">Subscribe</p>
             </a>
           </div>
           <div>
-            <a href="#" className="flex  gap-2 items-center cursor-pointer">
+            <a
+              href="#"
+              className="flex hover:primary_yellow duration-300 ease-in gap-2 items-center cursor-pointer"
+            >
               <FaRegHeart />
               <p className="text-base black-secondary">Support</p>
             </a>
@@ -28,7 +34,10 @@ const Footer = () => {
           {socialLinks.map((social) => {
             if (!social.secondary) {
               return (
-                <a className="text-[24px]" href={social.url}>
+                <a
+                  className="text-[24px] hover:primary_yellow duration-300 ease-in"
+                  href={social.url}
+                >
                   {" "}
                   {<social.name />}
                 </a>
