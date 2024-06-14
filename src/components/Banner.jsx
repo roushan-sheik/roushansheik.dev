@@ -75,7 +75,7 @@ const Banner = () => {
           {/* my resume  */}
           <div className="my-2 flex justify-center lg:justify-start">
             <a
-              href="https://drive.google.com/file/d/1garOnqLJR8VGG7fxKw42pM7l1RWg7E8P/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZKG1i5OhGMr30aH7i-t94xThNfPNNc3Z/view?usp=drive_link"
               download
               target="_blank"
             >
