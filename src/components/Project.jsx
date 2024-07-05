@@ -1,6 +1,8 @@
 import React from "react";
 import { CiCalendar } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
+import { FcEnteringHeavenAlive } from "react-icons/fc";
+
 const Project = ({ project }) => {
   const {
     id,
@@ -53,12 +55,18 @@ const Project = ({ project }) => {
           })}
         </div>
         {/* repo source code  */}
-        <div className="mt-6">
+        <div className="mt-6 flex items-center justify-between gap-2">
           <a href={gitHubRepo?.repo}>
-            <button className="button">
-              <FaGithubSquare className="text-3xl" />
-            </button>
+            <FaGithubSquare className="text-3xl cursor-pointer" />
           </a>
+          <div className="flex items-center">
+            <a href={liveURL?.url}>
+              <div className="flex items-center">
+                <span>Live</span>
+                <FcEnteringHeavenAlive className="text-3xl" />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
