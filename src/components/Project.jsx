@@ -57,7 +57,10 @@ const Project = ({ project }) => {
         {/* repo source code  */}
         <div className="mt-6 flex items-center justify-between gap-2">
           <a href={gitHubRepo?.repo}>
-            <FaGithubSquare className="text-3xl cursor-pointer" />
+            <div className="flex items-center gap-1">
+              <FaGithubSquare className="text-3xl cursor-pointer" />
+              <span>Source Code</span>
+            </div>
           </a>
           <div className="flex items-center">
             <a href={liveURL?.url}>
