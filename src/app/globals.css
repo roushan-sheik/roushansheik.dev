@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg_gradient {
+  background-color: hsla(234, 86%, 3%, 1);
+  color: white;
+  background-image: radial-gradient(
+      at 0% 100%,
+      hsla(360, 58%, 2%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 100%, #0b6ba2 0px, transparent 50%),
+    radial-gradient(at 0% 0%, #6f1f6db8 0px, transparent 50%);
+  min-height: 100vh;
+  max-width: 1440px;
+}
+/* gradient style for text  */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f93d9e, #00b4d8, #00a6fb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+@layer components {
+  .primary_black {
+    color: #0b090a;
+  }
+  .text_brand_pri {
+    color: #00a6fb;
+  }
+  .bg_pri {
+    background: #00a6fb;
+  }
+
+  .text_pri {
+    color: #fff2f2;
+  }
+  .text_sec {
+    color: #f9dfdf;
+  }
+}
+/* card related styles  */
+.card_glass {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* projects counter bg  */
+.counter_glass {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* techonology tag bg  */
+.techonology_glass {
+  background: rgba(28, 195, 254, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+/* scroll  */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+}
+/* blog glass  */
+.blog_glass{
+  background: rgba( 255, 255, 255, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

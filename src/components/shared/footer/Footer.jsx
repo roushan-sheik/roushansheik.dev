@@ -1,7 +1,6 @@
-import React from "react";
+import { socialLinks } from "@/data/socialLinks";
 import { FaRegHeart } from "react-icons/fa6";
 import { GoMail } from "react-icons/go";
-import { socialLinks } from "../data/socialLinks";
 
 const Footer = () => {
   return (
@@ -31,10 +30,11 @@ const Footer = () => {
         </div>
         {/* center box  */}
         <div className="flex  lg:flex-1 justify-center gap-4 items-center">
-          {socialLinks.map((social) => {
+          {socialLinks.map((social, index) => {
             if (!social.secondary) {
               return (
                 <a
+                  key={index + social}
                   className="text-[24px] hover:primary_yellow duration-300 ease-in"
                   href={social.url}
                 >
@@ -46,7 +46,11 @@ const Footer = () => {
           })}
         </div>
         {/* right box  */}
-        <div className=" flex-1 hidden lg:block"></div>
+        <div className=" flex-1 block">
+          <p className="text-center lg:text-nowrap lg:text-start text-wrap">
+            Copyright © 2024 Roushan Sheik. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   );
